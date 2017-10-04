@@ -1,0 +1,6 @@
+{
+  "vmname":"os-datason",
+  "ostype":"Debian",
+  "cpu":"2",
+  "mem":"512"
+}
