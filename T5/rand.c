@@ -7,7 +7,7 @@ int main (int argc, char *argv[]) {
 	int r = rand();
 	printf("The degrees %lf\n", r);
 	FILE *fp;
-	if((fp=fopen("number.txt", "wb"))==NULL) {
+	if((fp=fopen("rand.txt", "wb"))==NULL) {
 	   printf("Cannot open file.\n");
 	   exit(1);
 	}
