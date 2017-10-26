@@ -1,0 +1,10 @@
+########################
+# JAPeTo Rand
+########################
+executable     = rand
+universe       = vanilla    
+output         = rand.out.$(Process)                 
+error          = rand.err.$(Process)              
+log            = rand.log.$(Process)   
+
+queue

@@ -1,0 +1,11 @@
+#######################################
+# JAPeTo Collect
+#######################################
+executable     = collect
+universe       = vanilla 
+arguments      = sin.txt cos.txt       
+output         = collect.out.$(Process)                 
+error          = collect.err.$(Process)              
+log            = collect.log.$(Process)   
+
+queue

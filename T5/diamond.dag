@@ -1,0 +1,10 @@
+# File name: diamond.dag
+#
+# Jefferson Amado Pena Torres <JAPeTo>
+JOB  A  sin.condor 
+JOB  B  cos.condor 	
+JOB  D  collect.condor
+JOB  C  rand.condor
+PARENT C CHILD A B
+PARENT A B CHILD D
+Retry  C 3

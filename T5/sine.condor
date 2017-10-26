@@ -1,0 +1,11 @@
+########################
+# JAPeTo Sin
+########################
+executable     = sin
+universe       = vanilla 
+arguments      = 45           
+output         = sin.out.$(Process)                 
+error          = sin.err.$(Process)              
+log            = sin.log.$(Process)   
+
+queue
