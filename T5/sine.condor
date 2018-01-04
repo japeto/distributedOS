@@ -3,7 +3,8 @@
 ########################
 executable     = sin
 universe       = vanilla 
-arguments      = 45           
+transfer_input_files    = rand.txt
+should_transfer_files   = YES
 output         = sin.out.$(Process)                 
 error          = sin.err.$(Process)              
 log            = sin.log.$(Process)   
