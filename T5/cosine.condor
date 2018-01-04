@@ -4,6 +4,8 @@
 executable     = cos
 universe       = vanilla 
 arguments      = 45       
+transfer_input_files    = rand.txt
+should_transfer_files   = YES
 output         = cos.out.$(Process)                 
 error          = cos.err.$(Process)              
 log            = cos.log.$(Process)   
